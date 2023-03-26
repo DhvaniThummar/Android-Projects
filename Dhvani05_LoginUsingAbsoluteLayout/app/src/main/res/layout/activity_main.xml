@@ -1,0 +1,43 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/View1"
+        android:text="Login Form"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="150dp"/>
+
+
+    <EditText
+        android:layout_width="377dp"
+        android:layout_height="33dp"
+        android:layout_x="21dp"
+        android:layout_y="331dp"
+        android:width="100px"
+        android:background="#fff"
+        android:hint="Enter Password" />
+
+    <EditText
+        android:layout_width="377dp"
+        android:layout_height="33dp"
+        android:layout_x="21dp"
+        android:layout_y="288dp"
+        android:width="100px"
+        android:background="#fff"
+        android:hint="Enter Username" />
+
+    <Button
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="388dp"
+        android:text="LogIn"
+        android:textSize="22dp"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+</AbsoluteLayout>
