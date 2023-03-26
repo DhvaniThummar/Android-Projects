@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9EEE1"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@android:color/background_dark" />
+    <Button
+        android:id="@+id/btnPrev"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt2"
+        android:text="Previous"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/green"/>
+</RelativeLayout>
