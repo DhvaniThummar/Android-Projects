@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LogInFormUsingTableLayout</string>
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string name="loginForm">Login Form</string>
+        <string name="userName">Enter UserName</string>
+        <string name="password">Enter Password</string>
+        <string name="login">LogIn</string>
+</resources>
