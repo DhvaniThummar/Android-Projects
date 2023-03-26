@@ -1,0 +1,17 @@
+package com.example.practicals;
+
+
+    import androidx.appcompat.app.AppCompatActivity;
+
+
+    import android.app.ProgressDialog; import android.os.Bundle;
+
+    public class ProgressDialog_demo extends AppCompatActivity { ProgressDialog pDialog;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); setContentView(R.layout.activity_progress_dialog_demo); pDialog = new ProgressDialog(this); pDialog.setTitle("Demo");
+    pDialog.setMessage("Demo Message"); pDialog.setMax(100); pDialog.setProgress(0); pDialog.incrementProgressBy(50);
+    pDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL); pDialog.show();
+    }
+
+    }
